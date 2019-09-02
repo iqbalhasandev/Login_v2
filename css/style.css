@@ -73,6 +73,7 @@ body {
     padding: 5px;
     font-size: 16px;
     width: 247px;
+    outline: none;
 }
 
 .form-content:hover {
