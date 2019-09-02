@@ -1,0 +1,140 @@
+/* Theme Name:Login_v1
+Theme URI: https://iqbalhasan.gitghub.oi/Login_v2
+Author: IQBA HASAN
+Author URI: https://www.github.com/iqbalhasandev
+Author Social URI: https://www.facebook.com/iqbalhasan.dev
+Description:....
+Version: 1.0 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg.jpg)no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.856);
+}
+
+.form-box {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+#form {
+    margin: auto;
+    color: #fff;
+    width: 300px;
+}
+
+.form-title {
+    font-size: 4rem;
+    border-bottom: 7px solid #2ecc71;
+    margin-bottom: 3rem;
+    display: inline;
+    line-height: 3;
+    padding-bottom: 10px;
+}
+
+.form-content {
+    border-bottom: 2px solid #2ecc71;
+    width: 100%;
+    padding: 14px;
+    transition: 0.3s all linear;
+}
+
+.form-content label {}
+
+.form-content label i {}
+
+.form-content input {
+    border: none;
+    background: transparent;
+    color: #ffff;
+    padding: 5px;
+    font-size: 16px;
+    width: 247px;
+}
+
+.form-content:hover {
+    background: rgba(16, 16, 16, 0.43);
+}
+
+.form-btn {
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+
+.form-btn button {
+    border: 1px solid #2ecc71;
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+
+.form-btn button:hover {
+    background: #2ecc71;
+    border-color: transparent;
+}
+
+/* placeholder color change */
+
+::-webkit-input-placeholder {
+    color: #fff;
+    opacity: 0.8;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+    opacity: 0.8;
+}
+
+::-ms-input-placeholder {
+    color: #fff;
+    opacity: 0.8;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 0.8;
+}
+
+:not(output):-moz-ui-invalid {
+    box-shadow: none;
+}
+
+/* responsive */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #form {
+        width: auto;
+    }
+    .form-content {
+        width: 90%;
+    }
+}
